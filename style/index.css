@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content1 {
+  /* Parent Container */
+  width: 50%;
+  margin: auto; 
+}
+.red1 { 
+  background-color: red;
+  height: 100px; 
+} 
+.white1{
+  background-color: white;
+  height: 100px;
+}
+.green1,.green2{
+  background-color: green;
+}
+.yellow1{
+  background-color: yellow;
+}
+.white1,.white2{
+  background-color: white;
+}
+.blue1{
+  background-color: blue;
+  height: 100px;
+
+}
+.content2{
+  display: grid;
+  grid-template-columns: 75% 35%;
+  width: 80%;
+  background-color: white;
+}
+.content3{
+  width: 80%;
+  display: grid;
+  grid-template-columns: 35% 40% 35%;
+  height: 200px;
+}
+.content4{
+  width: 80%;
+  display: grid;
+  grid-template-columns: 35% 40% 55%;
+  height: 200px;
+}
